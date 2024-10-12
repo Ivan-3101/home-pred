@@ -1,9 +1,11 @@
 streamlit
-tensorflow
-opencv-python-headless
-Pillow
-numpy
-google-generativeai
+requests
 python-dotenv
 plotly
-requests
+pandas
+textblob
+Pillow
+matplotlib
+tensorflow
+opencv-python-headless
+numpy
