@@ -116,7 +116,7 @@ def predict_food(img):
     return predicted_food_name, confidence
 
 def call_food_analysis_api(food_name):
-    api_url = "http://127.0.0.1:5000/analyze_food"  # Flask API URL
+    api_url = "https://home-api-z0vu.onrender.com/analyze_food"  # Flask API URL
     headers = {'Content-Type': 'application/json'}
     data = {"food_name": food_name}
 
